@@ -21,11 +21,9 @@ public class FlagFactory {
 		flags.put(RUSSIA, Arrays.asList(Color.WHITE, Color.BLUE, Color.RED));
 	}
 	
-    // tag::getFlag[]
     public List<Color> getFlagColors(Nationality nationality) {
         List<Color> colors = flags.get(nationality);
         return colors != null ? colors : Arrays.asList(Color.GRAY);
     }
-    // end::getFlag[]
 
 }
