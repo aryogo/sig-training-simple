@@ -10,7 +10,7 @@ public class SavingsAccount extends counterAccount {
         throws BusinessException {
         // 1. Assuming result is 9-digit bank account number, validate 11-test:
         int sum = 0; // <1>
-        super.testing();
+        super.testing();   
     }
 
     public void addInterest() {

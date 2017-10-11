@@ -12,7 +12,7 @@ public class counterAccount() {
 	        CheckingAccount acct = Accounts.findAcctByNumber(counterAccount);
 	        Transfer result = new Transfer(this, acct, amount);
 	        return result;
-	    } else {
+	    } else {   
 	        throw new BusinessException("Invalid account number!");
 	    }
 	}
